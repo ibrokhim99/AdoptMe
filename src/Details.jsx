@@ -1,10 +1,10 @@
 import React from "react";
 import pet from "@frontendmasters/pet";
 import { navigate } from "@reach/router";
-import Carousel from "./Carousel";
-import Modal from "./Modal";
-import ErrorBoundary from "./ErrorBoundary";
-import ThemeContext from "./ThemeContext";
+import Carousel from "./Carousel.jsx";
+import Modal from "./Modal.jsx";
+import ErrorBoundary from "./ErrorBoundary.jsx";
+import ThemeContext from "./ThemeContext.jsx";
 
 class Details extends React.Component {
   state = { loading: true, showModal: false };
